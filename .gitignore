@@ -1,0 +1,76 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+out/
+artifacts/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+/ormconfig.json
+
+# IDE files
+.vscode/
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Misc
+*.tgz
+*.swp
+.data
+/files
+.codegpt
+
+# Storybook
+.storybook-out/
+storybook-static/
+
+# Next.js
+.next/
+out/
+
+# Build artifacts (NestJS, Next.js, etc.)
+dist/
+build/
+artifacts/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
